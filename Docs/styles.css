@@ -1,0 +1,120 @@
+.w3-sidebar{
+height:100%;
+width:200px;
+background-color:#fff;
+position:fixed!important;
+z-index:1;
+overflow:auto;
+}
+.w3-responsive{
+display:block;
+overflow-x:auto;
+}
+.w3-container{
+padding:0.01em 16px
+}
+.w3-bar-block{
+width:100%
+}
+.w3-light-grey{
+color:#000!important;background-color:#f1f1f1!important
+}
+
+html {
+font-family: -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "DejaVu Sans", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif, FreeSerif, NanumGothic, "Noto Sans Tibetan", Taprom, ;/*'Liberation Sans';*/
+}
+
+#SECLOGOregion img{
+height: 100%;
+width: 100%;
+object-fit:contain;
+}
+
+#SECTOCregion {
+padding: 10px;
+overflow-y:auto;
+/*width: 25%;
+class: "w3-sidebar w3-light-grey w3-bar-block";*/
+}
+
+#SECDISPLAYAREAregion {
+padding: 40px;
+overflow-y:auto;
+box-shadow: 0 2px 8px 0 rgba(0,0,0,.05);
+}
+
+#SECDISPLAYAREAregion img {
+border: 0px;
+transition:transform .2s; /* Animation */
+transition-property: border;
+box-shadow: 10px 10px 5px grey;
+}
+
+#SECDISPLAYAREAregion img:hover {
+transform: scale(1.3);
+background-color:white;
+}
+
+#SECDISPLAYAREAregion p{
+    font-size:1.15rem;
+}
+
+#SECDISPLAYAREAregion p.Title {
+text-align: center;
+font-size:2.4rem;
+margin-top:1rem;
+/*font-family:sans-serif;*/
+}
+
+#SECDISPLAYAREAregion p.Subtitle {
+text-align: center;
+font-size:1.2rem;
+margin-top:1rem;
+/*font-family:sans-serif;*/
+}
+
+#SECDISPLAYAREAregion h1 {
+font-size:1.5rem;
+}
+
+#SECDISPLAYAREAregion h2 {
+font-size:1.3rem;
+}
+
+#SECDISPLAYAREAregion p.List1 {
+  text-indent:-1rem;
+}
+
+#SECDISPLAYAREAregion p.List2 {
+  text-indent:-1.2rem;
+}
+
+#SECDISPLAYAREAregion p.Numbering1 {
+  text-indent:-1.3rem;
+}
+
+#SECDISPLAYAREAregion p.Numbering2 {
+  text-indent:-1.3rem;
+}  
+
+#SECDISPLAYAREAregion p.Numbering3 {
+  text-indent:-1.2rem;}
+
+#SECDISPLAYAREAregion p.LegendNumbered {
+   text-indent:-1.7rem;
+}
+
+#SECDISPLAYAREAregion p.HeadingCaution {
+  padding-top:0.3rem;
+  color:#a33f03
+}
+
+#SECDISPLAYAREAregion p.HeadingNote {
+  padding-top:0.3rem;
+  color:#106803;
+}
+
+#SECDISPLAYAREAregion p.HeadingTip {
+  padding-top:0.3rem;
+  color:#023f62
+}
